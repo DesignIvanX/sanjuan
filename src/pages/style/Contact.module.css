@@ -1,0 +1,97 @@
+.main {
+  min-width: 320px;
+  width: 100%;
+}
+.main__top__content img {
+  position: relative;
+  width: 100%;
+  min-height: 240px;
+  max-height: 600px;
+  margin-top: 100px;
+}
+.main__top__content .main__top__content__text {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #16608888;
+}
+.main__top__content .main__top__content__text .main__top__content__text--h2 {
+  font-size: 2.5rem;
+  color: var(--four);
+  text-align: center;
+  line-height: 150px;
+}
+@media screen and (max-width: 500px) {
+  .main__top__content .main__top__content__text .main__top__content__text--h2 {
+    font-size: 1.5rem;
+  }
+}
+.main__top__content .main__top__content__social {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+.main__top__content .main__top__content__social i {
+  color: var(--two);
+  font-size: 2rem;
+  margin: 10px 5px;
+  transition: 500ms all;
+}
+.main__top__content .main__top__content__social i:hover {
+  color: var(--one);
+}
+.contact {
+  min-width: 320px;
+  width: 100%;
+  padding: 50px 10px;
+}
+.contact .contact--h3 {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.contact .contact--h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+.contact .contact__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 10px;
+}
+.contact .contact__content .contact__content__box {
+  position: relative;
+  width: 270px;
+  height: 190px;
+  margin: 50px 20px;
+  text-align: center;
+  transition: 1s all;
+}
+.contact .contact__content .contact__content__box:hover {
+  transform: scale(1.1);
+}
+.contact .contact__content .contact__content__box .contact__content__box--img {
+  width: 80%;
+  height: 70%;
+  margin: 24px 0 0 0;
+}
+.main__top__content img {
+  width: 100vw !important;
+  height: 65vh !important;
+  object-fit: cover;
+}
+.fab {
+  color: var(--one);
+  margin: 10px;
+  font-size: 2.2rem;
+  transition: 500ms color;
+}
+.fab:hover {
+  color: var(--two);
+}

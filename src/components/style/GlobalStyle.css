@@ -1,0 +1,28 @@
+:root {
+  --one: #1e2d45;
+  --two: #ffde59;
+  --three: #0f0f23;
+  --four: #f4f6f3;
+  --five: #000000a6;
+  --font: "Montserrat", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font);
+}
+a {
+  text-decoration: none;
+}
+Link {
+  text-decoration: none;
+}
+.line {
+  border-bottom: 5px solid var(--two);
+}

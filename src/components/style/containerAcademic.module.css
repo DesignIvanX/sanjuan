@@ -1,0 +1,41 @@
+.section-academic-content-all-box {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.47);
+  padding: 25px;
+  margin: 0px 10px 40px 10px;
+  transition: 500ms scale;
+  max-width: 400px;
+}
+.section-academic-content-all-box:hover {
+  scale: 0.9;
+}
+.section-academic-content-all-box-text-two {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.section-academic-content-all-box-text-one--h3 {
+  border-left: 4px solid var(--one);
+  color: var(--three);
+  padding-left: 20px;
+  margin: 0px 0px 15px 0px;
+}
+.section-academic-content-all-box-text-two h4 {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: var(--one);
+}
+.section-academic-content-all-box-text-btn--arrow {
+  margin-top: 20px;
+}
+.section-academic-content-all-box-text-two--icon {
+  color: var(--one);
+  margin-bottom: -4px;
+  padding: 0px 4px 0px 0px;
+}
+.section-academic-content-all-box-text-btn--arrow {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+}

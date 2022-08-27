@@ -1,0 +1,168 @@
+.outsite-form {
+  z-index: 100000000;
+}
+.form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 100000000;
+  display: none;
+}
+
+.form-btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 90px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #335dff;
+  border-radius: 50px;
+  transition: 500ms all;
+  z-index: 10000000;
+}
+
+.form-btn:hover {
+  background-color: #344f7c;
+}
+
+.form-x {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  cursor: pointer;
+  z-index: 1000000;
+}
+
+.form-btn-envelope {
+  background-color: transparent;
+  border: 0;
+  text-align: center;
+  color: var(--four);
+  cursor: pointer;
+}
+
+.form-c {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-content {
+  height: 70vh;
+  max-width: 240px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-content-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-content-text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #030f4b;
+}
+
+.form-content-text p {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #4a4e63;
+}
+
+.form-content-main {
+}
+
+.form-content-main-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content-main-div label {
+  display: block;
+  text-align: center;
+  color: var(--four);
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0px 0px 10px 0px;
+}
+
+.form-content-main-div input {
+  margin: 0px 0px 10px 0px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #335dff;
+  color: #ffffff;
+}
+
+.form-content-main-div input::placeholder {
+  color: #ffffff;
+}
+
+.form-content-main-div select {
+  margin: 0px 0px 10px 0px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.form-content-main-div option {
+}
+
+.form-content-main-btn {
+  display: block;
+  transition: 500ms all;
+  cursor: pointer;
+  padding: 10px 60px;
+  background: #335dff;
+  box-shadow: 0px 10px 35px -3px rgba(51, 93, 255, 0.35),
+    0px 4px 6px rgba(51, 93, 255, 0.25);
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  margin: 0 auto;
+}
+
+.form-content-main-btn:hover {
+  background-color: #344f7c;
+}
+.form-content-main--alert {
+  display: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background-color: #335dff;
+  color: #ffffff;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 10px 35px -3px rgba(51, 93, 255, 0.35),
+    0px 4px 6px rgba(51, 93, 255, 0.25);
+}

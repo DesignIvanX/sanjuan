@@ -1,0 +1,21 @@
+.link {
+  display: block;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 40px;
+  padding: 8px 18px;
+  color: var(--four);
+}
+.special {
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  line-height: 40px;
+  padding: 8px 18px;
+  font-weight: 700;
+  -webkit-text-decoration: underline 3px var(--two);
+  color: var(--four);
+  text-decoration: underline 3px var(--two);
+  padding: 5px;
+  margin: 10px;
+}

@@ -1,0 +1,29 @@
+.transparent {
+  background-color: transparent;
+  border: 1px solid var(--four);
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 0 10px 0 10px;
+  text-align: center;
+  transition: 500ms all;
+  color: var(--four);
+}
+.transparent:hover {
+  background-color: var(--four);
+  color: var(--three) !important;
+}
+
+.stuffed {
+  background-color: var(--four);
+  color: var(--three) !important;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 0 10px 0 10px;
+  border: 1px solid var(--four);
+  text-align: center;
+  transition: 500ms all;
+}
+.stuffed:hover {
+  background-color: transparent;
+  color: var(--four) !important;
+}
