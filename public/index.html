@@ -1,15 +1,147 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/public/logo192.png" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/public/favicon.ico" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <div id="modal"></div>
-  </body>
+<html lang="es" class="backgroundSlider">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Universidad Hispano-Guaraní</title>
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lemon' rel='stylesheet' type='text/css'>
+        
+        <link rel="shortcut icon" href="images/hispanologo.svg">
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="css/YTPlayer.css" />
+        <link rel="stylesheet" type="text/css" href="css/supersized.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+        
+    </head>
+    <body>
+
+
+        <!-- Background images -->
+        <div id="backgroundImages"></div>
+        
+        
+        <!-- CONTAINER -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="section clearfix">
+
+                            <img class="img-responsive"  src="images/hispanologo2.svg" >
+                        
+                        <div id="text_slider">
+                            <div class="slide clearfix"><h2>Estamos trabajando en la nueva web</h2></div>
+
+                            <div class="slide clearfix"><h2>Para mejor atención a la familia educativa</h2></div>
+
+                            <div class="slide clearfix"><h2>Mientras tanto, ¿quieres contartacte con nosotros?</h2></div>
+                            
+                            <div class="slide clearfix"><h2>¡Te vemos pronto!</h2></div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- COUNTDOWN -->
+                    <div class="section clearfix animated fadeIn" id="countdown">
+                        <!-- Days -->
+                        <div class="countdown_group">
+                            <span class="countdown_value">{dnn}</span> 
+                            <span class="countdown_help">{dl}</span>
+                        </div>
+                        
+                        <!-- Hours --> 
+                        <div class="countdown_group">
+                            <span class="countdown_value">{hnn}</span> 
+                            <span class="countdown_help">{hl}</span>
+                        </div> 
+
+                        <!-- Minutes -->
+                        <div class="countdown_group">
+                            <span class="countdown_value">{mnn}</span> 
+                            <span class="countdown_help">{ml}</span> 
+                        </div>
+
+                        <!-- Seconds -->
+                        <div class="countdown_group">
+                            <span class="countdown_value">{snn}</span> 
+                            <span class="countdown_help">{sl}</span>
+                        </div>
+                    </div>
+                    <!-- END COUNTDOWN -->
+
+                    <div class="section clearfix animated fadeIn">
+                        <p>¿Quieres ser notificado cuando el sitio web esté listo?</p>
+                        <form id="form_newsletter">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <div class="input-group input-group-lg">
+                                        <input type="email" name="email" class="form-control" placeholder="Introduce tu correo electrónico" >
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="submit"><i class="fa fa-check"></i>¡Notificarme!</button>
+                                        </span>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div id="form_newsletter_result"></div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="section clearfix animated fadeIn" id="contact">
+                        <a href="#"><i class="fa fa-envelope-o"></i> uhgmisiones@gmail.com</a>
+                        <a href="#"><i class="fa fa-phone"></i> +595 21 721 2913</a>
+                    </div>
+
+
+                    <div class="section clearfix">
+                        <a href="https://www.facebook.com/uhgmisiones" class="btn btn-transparent btn-facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                        <!--<a href="#" class="btn btn-transparent btn-twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
+                        <!--<a href="#" class="btn btn-transparent btn-googleplus"><i class="fa fa-google-plus fa-fw"></i></a>-->
+                        <!--<a href="#" class="btn btn-transparent btn-youtube"><i class="fa fa-youtube fa-fw"></i></a>-->
+                        <!--<a href="#" class="btn btn-transparent btn-pinterest"><i class="fa fa-pinterest fa-fw"></i></a>-->
+                        <a href="https://www.instagram.com/uhg_py/?hl=es-la" class="btn btn-transparent btn-instagram"><i class="fa fa-instagram fa-fw"></i></a>
+                        <a href="https://wa.link/eo8ehc" class="btn btn-transparent btn-whatsapp"><i class="fa fa-whatsapp fa-fw"></i></a>
+                    </div>
+                    
+                    
+
+
+                </div>
+            </div>
+        </div>
+        <!-- END CONTAINER -->
+
+        <!-- FOOTER -->
+        <div id="footer">
+		<p>Diseñado por Informática UHG</p>
+		</div>
+        <!-- END FOOTER -->
+
+
+               
+		<!-- JS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.plugin.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/supersized.min.js"></script>
+        <script src="js/jquery.cycle.min.js"></script>
+        <script src="js/jquery.mb.YTPlayer.js"></script>
+        <script src="js/scripts.js"></script>
+        
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+		
+    </body>
 </html>
